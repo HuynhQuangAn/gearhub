@@ -57,7 +57,7 @@ const Header = () => {
       <div className=' h-full container mx-auto flex items-center px-4 justify-between'>
             <div className=''>
                 <Link to={"/"}>
-                    <Logo w={90} h={50}/>
+                    <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" width={50} height={50} className="rounded-full" />
                 </Link>
             </div>
 
